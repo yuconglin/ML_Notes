@@ -1,8 +1,15 @@
-### 机器学习笔记
+# 机器学习笔记
 
 对目前主流的机器学习算法进行公式推导、问题分析以及代码实现（主要基于numpy），持续更新（下面链接如果加载不出来，对应内容可在notebooks文件夹下找到）：  
 
-
+## How to run the codes in a virtual environment
+### Set up a virtual environment for the first time
+```
+$ {in the project folder:}
+$ python3 -m venv ../ML_Notes_venv
+$ . ../ML_Notes_venv/bin/activate
+(ML_Notes_venv) $ pip install numpy jupyterlab matplotlib scikit-learn
+```
 
 [01_线性模型_线性回归](https://nbviewer.jupyter.org/github/zhulei227/ML_Notes/blob/master/notebooks/01_%E7%BA%BF%E6%80%A7%E6%A8%A1%E5%9E%8B_%E7%BA%BF%E6%80%A7%E5%9B%9E%E5%BD%92.ipynb)
 
